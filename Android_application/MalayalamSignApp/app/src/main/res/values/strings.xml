@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MalayalamSignApp</string>
+    <string name="word_prediction_title">Word Prediction</string>
+    <string name="alphabet_sequence_label">Alphabet Sequence:</string>
+    <string name="alphabet_sequence_placeholder">Alphabet sequence will appear here...</string>
+    <string name="remove_last_button">⌫ Remove Last</string>
+    <string name="clear_all_button">🗑️ Clear All</string>
+    <string name="speech_enabled">Speech enabled</string>
+    <string name="speech_disabled">Speech disabled</string>
+    <string name="speaking_word">Speaking: %s</string>
+    <string name="suggestions_count">%d word suggestions</string>
+    <string name="no_suggestions">Start making gestures to see suggestions</string>
+    <string name="hold_gesture_steady">Hold gesture steady...</string>
+    <string name="show_hand_to_camera">Show your hand to camera</string>
+    <string name="hands_detected">Hands detected: %d</string>
+    <string name="camera_permission_required">Camera permission is required</string>
+    <string name="malayalam_tts_not_available">Malayalam TTS not available, using default</string>
+    <string name="initialization_failed">Initialization failed: %s</string>
+</resources>

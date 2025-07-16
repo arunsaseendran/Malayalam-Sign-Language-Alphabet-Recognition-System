@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#3F51B5">
+
+    <!-- Chat bubble background -->
+    <path
+        android:fillColor="#E8EAF6"
+        android:pathData="M20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H6L10,22L14,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2Z"/>
+
+    <!-- Multiple sentence lines -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M6,7L18,7M6,9L16,9M6,11L14,11M6,13L17,13"/>
+
+    <!-- Period at the end (using path instead of circle) -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M17,13m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+
+    <!-- Small accent dots for conversation (using paths) -->
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M8,15m-0.5,0a0.5,0.5 0,1 1,1 0a0.5,0.5 0,1 1,-1 0"/>
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M10,15m-0.5,0a0.5,0.5 0,1 1,1 0a0.5,0.5 0,1 1,-1 0"/>
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M12,15m-0.5,0a0.5,0.5 0,1 1,1 0a0.5,0.5 0,1 1,-1 0"/>
+</vector>

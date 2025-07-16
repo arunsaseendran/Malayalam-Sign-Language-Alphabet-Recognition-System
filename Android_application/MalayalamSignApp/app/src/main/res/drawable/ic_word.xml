@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#3F51B5">
+
+    <!-- Document background -->
+    <path
+        android:fillColor="#E8EAF6"
+        android:pathData="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2Z"/>
+
+    <!-- Folded corner -->
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M14,2V8H20"/>
+
+    <!-- Word lines (representing text) -->
+    <path
+        android:fillColor="#3F51B5"
+        android:strokeWidth="1"
+        android:pathData="M7,10h6M7,12h8M7,14h5M7,16h7"/>
+
+    <!-- Highlight the middle line to represent "word" -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M7,12h8"
+        android:strokeWidth="2"/>
+</vector>

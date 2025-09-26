@@ -1,10 +1,7 @@
-# Gesture Recognition Project (Malayalam ISL)
-
-This project is focused on **gesture recognition for Malayalam Indian Sign Language (ISL)**. It allows creating gesture datasets, training machine learning models, and recognizing gestures using trained models.
-
+# This Part Contains Gesture Capturing and Model Creation
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 - **`capture_gestures.py`**  
   Used to create gesture samples. Captured gestures are saved into the folder **`malayalam_isl_images/`** and stored as features in a CSV file.
@@ -32,7 +29,7 @@ This project is focused on **gesture recognition for Malayalam Indian Sign Langu
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Install Dependencies
 ```bash
@@ -60,7 +57,7 @@ This script loads the pre-trained model (`model.tflite`) and tests gestures in r
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 Main libraries used:
 - TensorFlow / TensorFlow Lite
 - OpenCV
@@ -73,14 +70,14 @@ Install all dependencies from `requirements.txt` before running.
 
 ---
 
-## 📌 Notes
+##  Notes
 - Ensure your webcam is connected for gesture capture and recognition.
 - For better performance, retrain the model with more samples.
 - The project can be extended for **real-time ISL translation** applications.
 
 ---
 
-## ✨ Future Improvements
+##  Future Improvements
 - Add support for more gestures.
 - Improve accuracy with deep learning models (CNNs).
 - Develop a UI for easier testing and interaction.

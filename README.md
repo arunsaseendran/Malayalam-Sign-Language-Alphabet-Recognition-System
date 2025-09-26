@@ -34,3 +34,5 @@ expression in the Malayalam language context.
 
 
 [MSL Model Creation and Training (python)](./Model_creation_and_training/)
+
+[MSL Android Application ](./Android_application/)
